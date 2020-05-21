@@ -715,8 +715,9 @@ $datepicker-highlighted-bg: $datepicker-active-background !default;
 
 $footer-link-font-size: .85rem !default;
 $footer-bg: theme-color("secondary") !default;
-$footer-color: $gray-600 !default;
-$footer-link-color: $gray-600 !default;
-$footer-link-hover-color: $gray-700 !default;
-$footer-heading-color: $gray-600 !default;
+$footer-color: $white !default;
+$footer-link-color: $gray-400 !default;
+$footer-link-hover-color: $gray-500 !default;
+$footer-heading-color: $white !default;
+$footer-copyright-color: $gray-400 !default;
 $footer-heading-font-size: $font-size-sm !default;

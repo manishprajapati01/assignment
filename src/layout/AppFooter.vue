@@ -1,9 +1,9 @@
 <template>
-  <footer class="bg-dark pt-4">
+  <footer class="bg-dark pt-4 footer">
     <div class="container text-center text-md-left">
       <div class="row">
         <div class="col-md-2 mx-auto">
-          <h5 class="font-weight-bold mt-3 mb-4">Welcome</h5>
+          <h5 class="font-weight-bold mt-3 mb-4 heading">Welcome</h5>
           <ul class="list-unstyled">
             <li>
               <select class="form-control" id="exampleFormControlSelect1">
@@ -18,12 +18,12 @@
         </div>
         <hr class="clearfix w-100 d-md-none" />
         <div class="col-md-2 mx-auto">
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Mobile App</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 heading">Mobile App</h5>
           <img class src="img/app-store.png" width="100px" />
         </div>
         <hr class="clearfix w-100 d-md-none" />
         <div class="col-md-2 mx-auto">
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 heading">About</h5>
           <ul class="list-unstyled">
             <li>
               <a href="#!">Company</a>
@@ -44,7 +44,7 @@
         </div>
         <hr class="clearfix w-100 d-md-none" />
         <div class="col-md-2 mx-auto">
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Network</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 heading">Network</h5>
           <ul class="list-unstyled">
             <li>
               <a href="#!">Become a Driver</a>
@@ -66,7 +66,7 @@
         <hr class="clearfix w-100 d-md-none" />
 
         <div class="col-md-3 mx-auto">
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Payment Methods</h5>
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 heading">Payment Methods</h5>
 
           <ul class="list-unstyled">
             <li>
@@ -83,34 +83,44 @@
       </div>
     </div>
 
-    <ul class="list-unstyled list-inline text-center">
+    <ul class="list-unstyled list-inline text-center mt-5">
       <li class="list-inline-item">
-        <a class="btn-floating btn-fb mx-1">
-          <i class="fa fa-facebook-f"></i>
-        </a>
+        <span class="badge badge-pill">
+          <a>
+            <i class="fa fa-facebook-official"></i>
+          </a>
+        </span>
       </li>
       <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1">
-          <i class="fa fa-twitter"></i>
-        </a>
+        <span class="badge badge-pill">
+          <a>
+            <i class="fa fa-twitter"></i>
+          </a>
+        </span>
       </li>
       <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1">
-          <i class="fa fa-instagram"></i>
-        </a>
+        <span class="badge badge-pill">
+          <a>
+            <i class="fa fa-instagram"></i>
+          </a>
+        </span>
       </li>
       <li class="list-inline-item">
-        <a class="btn-floating mx-1">
-          <i class="fa fa-yelp"></i>
-        </a>
+        <span class="badge badge-pill">
+          <a>
+            <i class="fa fa-yelp"></i>
+          </a>
+        </span>
       </li>
       <li class="list-inline-item">
-        <a class="btn-floating btn-li mx-1">
-          <i class="fa fa-linkedin"></i>
-        </a>
+        <span class="badge badge-pill">
+          <a>
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </span>
       </li>
     </ul>
-    <div class="footer-copyright text-center py-3">© 2011 - 2020 All rights reserved.</div>
+    <div class="copyright text-center py-3">© 2011 - 2020 All rights reserved.</div>
   </footer>
 </template>
 <script>
@@ -119,4 +129,11 @@ export default {
 };
 </script>
 <style>
+.badge-pill {
+  background-color: white;
+}
+
+.badge-pill i {
+  color: black;
+}
 </style>

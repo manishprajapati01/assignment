@@ -160,7 +160,7 @@
           </p>
           <hr />
 
-          <div>
+          <div class="mb-5">
             <div class="card">
               <div class="card-header" id="headingOne">
                 <h5 class="mb-0">EDITOR'S NOTE</h5>

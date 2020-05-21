@@ -41,6 +41,7 @@
                 <th scope="col">PRICE</th>
                 <th scope="col">DURATION</th>
                 <th scope="col">AVAILABILITY</th>
+                <th scope="col"></th>
               </tr>
             </thead>
             <tbody>
@@ -54,6 +55,7 @@
                 </td>
                 <td>23min</td>
                 <td>24/7</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
@@ -64,6 +66,9 @@
                 </td>
                 <td>23min</td>
                 <td>24/7</td>
+                <td>
+                  <base-button type="dark" size="sm">Book</base-button>
+                </td>
               </tr>
               <tr>
                 <td>
@@ -74,6 +79,7 @@
                 </td>
                 <td>32min</td>
                 <td>05:51-23:18</td>
+                <td></td>
               </tr>
               <tr>
                 <td>
@@ -84,6 +90,7 @@
                 </td>
                 <td>90min</td>
                 <td>06:06-22:52</td>
+                <td></td>
               </tr>
             </tbody>
           </table>
@@ -120,14 +127,19 @@
 
       <div class="row justify-content-center align-items-center mt-4">
         <div class="col-lg-7">
-          <div>
-            <h4>Convenience</h4>
-            <span class="fa fa-star checked ml-2"></span>
-            <span class="fa fa-star checked ml-2"></span>
-            <span class="fa fa-star checked ml-2"></span>
-            <span class="fa fa-star ml-2"></span>
-            <span class="fa fa-star ml-2"></span>
+          <div class="d-flex flex-row mb-3">
+            <div>
+              <h4>Convenience</h4>
+            </div>
+            <div class="p-2">
+              <span class="fa fa-star checked ml-2"></span>
+              <span class="fa fa-star checked ml-2"></span>
+              <span class="fa fa-star checked ml-2"></span>
+              <span class="fa fa-star ml-2"></span>
+              <span class="fa fa-star ml-2"></span>
+            </div>
           </div>
+
           <p
             class="mt-3"
           >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis egestas pretium. Fermentum odio eu feugiat pretium.</p>

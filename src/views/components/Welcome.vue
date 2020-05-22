@@ -2,7 +2,7 @@
   <section class="section section-components pb-0" id="section-components">
     <div class="container">
       <div class="row justify-content-center align-items-center">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <b-card no-body class="overflow-hidden">
             <div class="row welcome-information">
               <div class="col-lg-7 text-white pr-0">
@@ -55,7 +55,7 @@
       </div>-->
 
       <div class="row justify-content-center align-items-center mt-3">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis egestas pretium. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Magnis dis parturient montes nascetur ridiculus mus. Mi in nulla posuere sollicitudin aliquam ultrices. Elementum integer enim neque volutpat ac tincidunt vitae semper quis. Eu mi bibendum neque egestas congue. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Tincidunt id aliquet risus feugiat in ante metus dictum. Mauris commodo quis imperdiet massa tincidunt. Habitasse platea dictumst vestibulum rhoncus est pellentesque. Consequat interdum varius sit amet. Nisl tincidunt eget nullam non nisi est. Dolor magna eget est lorem ipsum dolor sit amet.</p>
         </div>
       </div>
@@ -99,12 +99,12 @@
         </div>
       </div>
       <div class="row justify-content-center align-items-center mt-3">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <p class="font-weight-bold">Comparison of the options</p>
         </div>
       </div>
       <div class="row justify-content-center align-items-center mt-3">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <div class="bg-secondary font-weight-bold text-uppercase p-3 text-center" role="alert">
             price for
             <i class="fa fa-minus ml-3 mr-3" aria-hidden="true"></i>
@@ -114,7 +114,7 @@
         </div>
       </div>
       <div class="row justify-content-center align-items-center">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <table class="table table-responsive" style="width:100%">
             <thead>
               <tr>
@@ -179,7 +179,7 @@
       </div>
 
       <div class="row justify-content-center align-items-center mt-3">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <p>
             <i class="fa fa-subway" aria-hidden="true"></i> How to get from Singapore Airport to city centre by metro (MRT)
           </p>
@@ -246,7 +246,7 @@
         </div>
       </div>
       <div class="row justify-content-center align-items-center mr-1 ml-1">
-        <div class="col-lg-7 border">
+        <div class="col-lg-8 border">
           <p class="mt-2">
             <i class="fa fa-info-circle" aria-hidden="true"></i>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis egestas pretium.
@@ -255,7 +255,7 @@
       </div>
 
       <div class="row justify-content-center align-items-center mt-4">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <h4>Where do I get it from?</h4>
           <p
             class="mt-3"
@@ -264,7 +264,7 @@
       </div>
 
       <div class="row justify-content-center align-items-center mt-4">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <div class="d-flex flex-row mb-3">
             <div>
               <h4>Convenience</h4>
@@ -285,7 +285,7 @@
       </div>
 
       <div class="row justify-content-center align-items-center mt-4">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <h4>Timetables</h4>
 
           <p class="mt-3 mb-5">

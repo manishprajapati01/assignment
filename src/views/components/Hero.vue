@@ -15,17 +15,17 @@
     <div class="container shape-container d-flex align-items-center">
       <div class="col px-0">
         <div class="row justify-content-center align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-8">
             <h6 class="text-white mt-4 mb-5">WELCOME / SINGAPORE / CHANGI AIRPORT TO CITY CENTRE</h6>
-            <h2 class="text-white mt-4 mb-5">
+            <h1 class="text-white mt-4 mb-5">
               <strong>Transfer Options from Singapore Changi Airport to City Centre</strong>
-            </h2>
+            </h1>
           </div>
         </div>
         <div class="row justify-content-center align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-8">
             <div class="row">
-              <div class="d-inline-block">
+              <div class="col-2 pr-0 col-sm-1">
                 <img
                 alt="Circle image"
                 class="img-fluid rounded-circle shadow inline-block"
@@ -35,7 +35,7 @@
                 style="width: 40px;"
               />
               </div>
-              <div class="text-white ml-3 d-inline-block">
+              <div class="text-white d-inline-block col col-sm-10">
                 <strong>Michael Jackson</strong><br />March 21, 2019
               </div>
             </div>

@@ -27,16 +27,17 @@
             <div class="row">
               <div class="col-2 pr-0 col-sm-1">
                 <img
-                alt="Circle image"
-                class="img-fluid rounded-circle shadow inline-block"
-                data-src="img/theme/team-2-800x800.jpg"
-                src="img/theme/team-2-800x800.jpg"
-                lazy="loaded"
-                style="width: 40px;"
-              />
+                  alt="Circle image"
+                  class="img-fluid rounded-circle shadow inline-block"
+                  data-src="img/theme/team-2-800x800.jpg"
+                  src="img/theme/team-2-800x800.jpg"
+                  lazy="loaded"
+                  style="width: 40px;"
+                />
               </div>
               <div class="text-white d-inline-block col col-sm-10">
-                <strong>Michael Jackson</strong><br />March 21, 2019
+                <strong>Michael Jackson</strong>
+                <br />March 21, 2019
               </div>
             </div>
           </div>
@@ -55,5 +56,6 @@ export default {};
   background-attachment: scroll;
   position: relative;
   background-size: cover;
+  filter: brightness(50%);
 }
 </style>

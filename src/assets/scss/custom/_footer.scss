@@ -27,4 +27,18 @@
     font-size: $font-size-sm;
     color: $footer-copyright-color;
   }
+  .btn {
+    height: 35px;
+    width: 120px;
+    background-color: #212529;
+    border: solid 1px $white;
+    color: $white;
+    font-weight: normal;
+    padding: 0rem 0rem;
+    border-radius: 0;
+  }
+  .dropdown-toggle::after {
+    left: 15px;
+    position: inherit;
+  }
 }

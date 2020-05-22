@@ -3,16 +3,21 @@
     <div class="container text-center text-md-left">
       <div class="row">
         <div class="col-md-2 mx-auto">
-          <h5 class="font-weight-bold mt-3 mb-4 heading">Welcome</h5>
+          <span class="badge badge-pill">
+            <i aria-hidden="true" class="fa fa-odnoklassniki"></i>
+          </span>
+          <div class="font-weight-bold text-white">Welcome</div>
           <ul class="list-unstyled">
             <li>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>English</option>
-                <option>French</option>
-              </select>
+              <div>
+                <b-dropdown text="English" variant="dark"></b-dropdown>
+              </div>
             </li>
-            <li>
-              <i class="fa fa-question-circle-o" aria-hidden="true"></i>Help
+            <li class="mt-3">
+              <button type="button" class="btn">
+                <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                Help
+              </button>
             </li>
           </ul>
         </div>
@@ -124,8 +129,14 @@
   </footer>
 </template>
 <script>
+import { BDropdownItem, BDropdown } from "bootstrap-vue";
+
 export default {
-  name: "app-footer"
+  name: "app-footer",
+  components: {
+    BDropdownItem,
+    BDropdown
+  }
 };
 </script>
 <style>

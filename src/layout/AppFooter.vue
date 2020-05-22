@@ -3,10 +3,14 @@
     <div class="container text-center text-md-left">
       <div class="row">
         <div class="col-md-2 mx-auto">
-          <span class="badge badge-pill">
-            <i aria-hidden="true" class="fa fa-odnoklassniki"></i>
-          </span>
-          <div class="font-weight-bold text-white">Welcome</div>
+          <div class="d-flex mb-3">
+            <div class="round round-sm hollow white">
+              <span>
+                <i class="fa fa-odnoklassniki"></i>
+              </span>
+            </div>
+            <div class="align-self-center font-weight-bold text-white ml-2">Welcome</div>
+          </div>
           <ul class="list-unstyled">
             <li>
               <div>
@@ -15,8 +19,9 @@
             </li>
             <li class="mt-3">
               <button type="button" class="btn">
-                <i class="fa fa-question-circle-o" aria-hidden="true"></i>
-                Help
+                <span class="round mr-1">
+                  <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                </span>Help
               </button>
             </li>
           </ul>
@@ -82,7 +87,7 @@
             </li>
             <li>
               <a href="#!">
-                <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                <i class="fa fa-cc-paypal" aria-hidden="true"></i>
                 Checkout.com
               </a>
             </li>
@@ -93,29 +98,39 @@
 
     <ul class="list-unstyled list-inline text-center mt-5">
       <li class="list-inline-item">
-        <a>
-          <i class="fa fa-facebook-official"></i>
-        </a>
+        <div class="round round-sm hollow white">
+          <a>
+            <i class="fa fa-facebook-official"></i>
+          </a>
+        </div>
       </li>
       <li class="list-inline-item">
-        <a>
-          <i class="fa fa-twitter"></i>
-        </a>
+        <div class="round round-sm hollow white">
+          <a>
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
       </li>
       <li class="list-inline-item">
-        <a>
-          <i class="fa fa-instagram"></i>
-        </a>
+        <div class="round round-sm hollow white">
+          <a>
+            <i class="fa fa-instagram"></i>
+          </a>
+        </div>
       </li>
       <li class="list-inline-item">
-        <a>
-          <i class="fa fa-yelp"></i>
-        </a>
+        <div class="round round-sm hollow white">
+          <a>
+            <i class="fa fa-yelp"></i>
+          </a>
+        </div>
       </li>
       <li class="list-inline-item">
-        <a>
-          <i class="fa fa-linkedin"></i>
-        </a>
+        <div class="round round-sm hollow white">
+          <a>
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
       </li>
     </ul>
     <div class="copyright text-center py-3">© 2011 - 2020 All rights reserved.</div>
@@ -141,7 +156,6 @@ export default {
   color: black;
 }
 .footer .fa {
-  padding: 0.6em 0.6em;
   background-color: white;
   color: black;
 }

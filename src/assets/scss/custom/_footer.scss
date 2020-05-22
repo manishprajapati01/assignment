@@ -1,7 +1,6 @@
 .footer {
   background: $footer-bg;
   padding: 3rem 0;
-  //color: $footer-color;
 
   .heading {
     color: $footer-heading-color;
@@ -40,5 +39,15 @@
   .dropdown-toggle::after {
     left: 15px;
     position: inherit;
+  }
+
+  .round {
+    .fa-question-circle-o {
+      color: #fff !important;
+      background-color: transparent !important;
+    }
+  }
+  .fa-cc-paypal {
+    color: #0c6b3d;
   }
 }

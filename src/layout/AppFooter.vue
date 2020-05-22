@@ -147,16 +147,3 @@ export default {
   }
 };
 </script>
-<style>
-.badge-pill {
-  background-color: white;
-}
-
-.badge-pill i {
-  color: black;
-}
-.footer .fa {
-  background-color: white;
-  color: black;
-}
-</style>

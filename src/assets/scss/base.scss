@@ -7,5 +7,15 @@
 }
 body {
   font-size: 0.9rem;
-  font-family:'Museo Sans Rounded'
+  font-family: "Museo Sans Rounded";
+}
+
+.nav-link {
+  .nav-link-inner--text {
+    padding-bottom: 5px;
+    &:hover,
+    &.selected {
+      border-bottom: 3px solid $green;
+    }
+  }
 }

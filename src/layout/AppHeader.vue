@@ -18,7 +18,7 @@
 
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center justify-content-end">
         <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">Company</span></a></li>
-        <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">Traveler</span></a></li>
+        <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text selected">Traveler</span></a></li>
         <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">Partner</span></a></li>
         <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">Driver</span></a></li>
       </ul>

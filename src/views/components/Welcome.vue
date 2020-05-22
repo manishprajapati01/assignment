@@ -1,34 +1,50 @@
 <template>
   <section class="section section-components pb-0" id="section-components">
     <div class="container">
-      <div>
-        <b-card
-          title="Card Title"
-          img-src="https://picsum.photos/600/300/?image=25"
-          img-alt="Image"
-          img-top
-          tag="article"
-          style="max-width: 20rem;"
-          class="mb-2"
-        >
-          <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-7">
+          <b-card no-body class="overflow-hidden">
+            <div class="row welcome-information">
+              <div class="col-lg-7 text-white pr-0">
+                <b-card-body>
+                  <b-card-text>
+                    <h4 class="card-title mb-0">
+                      <i class="fa fa-handshake-o"></i>
+                      Welcome
+                    </h4>
+                    <small>
+                      <p class="font-weight-bold mb-0">Travel safe with Welcome Pickups</p>-
+                      <strong>Hand sanitiser gel</strong> is available in our vehicles;
+                      <br />-
+                      <strong>Regular cleaning</strong> of all the car surfaces;
+                      <br />- Extra
+                      <strong>flexibility</strong> in changes or cancellation.
+                    </small>
+                  </b-card-text>
+                </b-card-body>
+              </div>
 
-          <b-button href="#" variant="primary">Go somewhere</b-button>
-        </b-card>
+              <div class="col-lg-5">
+                <b-card-img
+                  src="img/man-cleaning-car.jpg"
+                  height="100%"
+                  alt="Image"
+                  width="230px"
+                  class="rounded-0"
+                ></b-card-img>
+              </div>
+            </div>
+          </b-card>
+        </div>
       </div>
 
-      <div class="row justify-content-center align-items-center">
+      <!-- <div class="row justify-content-center align-items-center">
         <div class="col-lg-7">
           <div class="card">
             <div class="card-horizontal">
               <div class="card-body">
                 <h4 class="card-title">Welcome</h4>
-                <p class="card-text">
-                  Travel safe with Welcome Pickups
-                  <br />- Hand sanitiser gel is available in our vehicles;
-                  <br />- Regular cleaning of all the car surfaces;
-                  <br />- Extra flexibility in changes or cancellation.
-                </p>
+                <p class="card-text"></p>
               </div>
               <div class="img-square-wrapper">
                 <img class src="img/man-cleaning-car.jpg" width="230px" height="100%" />
@@ -36,7 +52,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
 
       <div class="row justify-content-center align-items-center mt-3">
         <div class="col-lg-7">
@@ -82,22 +98,36 @@
           </form>
         </div>
       </div>
-
       <div class="row justify-content-center align-items-center mt-3">
         <div class="col-lg-7">
-          <table class="table table-responsive">
+          <p class="font-weight-bold">Comparison of the options</p>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center mt-3">
+        <div class="col-lg-7">
+          <div class="bg-secondary font-weight-bold text-uppercase p-3 text-center" role="alert">
+            price for
+            <i class="fa fa-minus ml-3 mr-3" aria-hidden="true"></i>
+            2 passengers
+            <i class="fa fa-plus ml-3" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-7">
+          <table class="table table-responsive" style="width:100%">
             <thead>
               <tr>
-                <th scope="col">OPTION</th>
-                <th scope="col">PRICE</th>
-                <th scope="col">DURATION</th>
-                <th scope="col">AVAILABILITY</th>
-                <th scope="col"></th>
+                <th class="pl-0" scope="col" style="width: 30em;">OPTION</th>
+                <th scope="col" style="width: 15em;">PRICE</th>
+                <th scope="col" style="width: 15em;">DURATION</th>
+                <th scope="col" style="width: 20em;">AVAILABILITY</th>
+                <th scope="col" style="width: 10em;"></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>
+                <td class="pl-0">
                   <i class="fa fa-taxi"></i>
                   Taxi
                 </td>
@@ -109,7 +139,7 @@
                 <td></td>
               </tr>
               <tr>
-                <td>
+                <td class="pl-0">
                   <i class="fa fa-odnoklassniki" aria-hidden="true"></i> Best Pickup
                 </td>
                 <td>
@@ -122,7 +152,7 @@
                 </td>
               </tr>
               <tr>
-                <td>
+                <td class="pl-0">
                   <i class="fa fa-subway" aria-hidden="true"></i> Metro
                 </td>
                 <td>
@@ -133,7 +163,7 @@
                 <td></td>
               </tr>
               <tr>
-                <td>
+                <td class="pl-0">
                   <i class="fa fa-bus" aria-hidden="true"></i> Bus
                 </td>
                 <td>
@@ -270,27 +300,38 @@
 
           <div class="mb-5">
             <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">EDITOR'S NOTE</h5>
-                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+              <div class="card-header pt-0 pb-0 pl-1">
+                <div class="d-flex">
+                  <div class="mr-auto p-2">
+                    <p class="mb-0 font-weight-bold text-uppercase">Editor's Note</p>
+                  </div>
+                  <div class="p-2">
+                    <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                  </div>
+                </div>
               </div>
 
-              <div id="collapseOne" class="collapse show">
+              <div class="collapse show">
                 <div
-                  class="card-body"
+                  class="card-body p-3"
                 >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</div>
               </div>
             </div>
 
             <div class="card mt-3">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">USEFUL TIPS</h5>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              <div class="card-header pt-0 pb-0 pl-1">
+                <div class="d-flex">
+                  <div class="mr-auto p-2">
+                    <p class="mb-0 font-weight-bold text-uppercase">Useful tips</p>
+                  </div>
+                  <div class="p-2">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                  </div>
+                </div>
               </div>
-
-              <div id="collapseOne" class="collapse">
+              <div class="collapse">
                 <div
-                  class="card-body"
+                  class="card-body p-3"
                 >Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</div>
               </div>
             </div>
@@ -341,14 +382,16 @@
 </template>
 <script>
 const DatePickers = () => import("./JavascriptComponents/DatePickers");
-import { BCard, BCardText, BButton } from "bootstrap-vue";
+import { BCard, BCardText, BButton, BCardImg, BCardBody } from "bootstrap-vue";
 
 export default {
   components: {
     DatePickers,
     BCard,
     BCardText,
-    BButton
+    BButton,
+    BCardImg,
+    BCardBody
   }
 };
 </script>
@@ -384,4 +427,19 @@ export default {
   cursor: pointer;
   color: #ccc;
 }
+.welcome-information {
+  background-color: #44c27c;
+}
+.welcome-information .card-title {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* i.fa {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #ccc;
+  padding: 0.5em 0.4em;
+  font-size: 1rem;
+} */
 </style>

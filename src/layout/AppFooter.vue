@@ -78,9 +78,12 @@
               <a href="#!">All Credit Card Accepted</a>
             </li>
             <li>
+              <a href="#!">PayPal</a>
+            </li>
+            <li>
               <a href="#!">
-                PayPal
-                <br />Checkout.com
+                <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                Checkout.com
               </a>
             </li>
           </ul>
@@ -90,39 +93,29 @@
 
     <ul class="list-unstyled list-inline text-center mt-5">
       <li class="list-inline-item">
-        <span class="badge badge-pill">
-          <a>
-            <i class="fa fa-facebook-official"></i>
-          </a>
-        </span>
+        <a>
+          <i class="fa fa-facebook-official"></i>
+        </a>
       </li>
       <li class="list-inline-item">
-        <span class="badge badge-pill">
-          <a>
-            <i class="fa fa-twitter"></i>
-          </a>
-        </span>
+        <a>
+          <i class="fa fa-twitter"></i>
+        </a>
       </li>
       <li class="list-inline-item">
-        <span class="badge badge-pill">
-          <a>
-            <i class="fa fa-instagram"></i>
-          </a>
-        </span>
+        <a>
+          <i class="fa fa-instagram"></i>
+        </a>
       </li>
       <li class="list-inline-item">
-        <span class="badge badge-pill">
-          <a>
-            <i class="fa fa-yelp"></i>
-          </a>
-        </span>
+        <a>
+          <i class="fa fa-yelp"></i>
+        </a>
       </li>
       <li class="list-inline-item">
-        <span class="badge badge-pill">
-          <a>
-            <i class="fa fa-linkedin"></i>
-          </a>
-        </span>
+        <a>
+          <i class="fa fa-linkedin"></i>
+        </a>
       </li>
     </ul>
     <div class="copyright text-center py-3">© 2011 - 2020 All rights reserved.</div>
@@ -145,6 +138,11 @@ export default {
 }
 
 .badge-pill i {
+  color: black;
+}
+.footer .fa {
+  padding: 0.6em 0.6em;
+  background-color: white;
   color: black;
 }
 </style>

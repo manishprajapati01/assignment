@@ -24,7 +24,7 @@
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-5">
         <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">En</span></a></li>
-        <li class="nav-item d-none d-lg-block ml-lg-4">
+        <li class="nav-item d-lg-block ml-lg-4">
           <base-button class="btn-1" type="success">Book a taxi</base-button>
         </li>
       </ul>

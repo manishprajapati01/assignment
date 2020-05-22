@@ -17,13 +17,33 @@
       </div>
 
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center justify-content-end">
-        <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">Company</span></a></li>
-        <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text selected">Traveler</span></a></li>
-        <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">Partner</span></a></li>
-        <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">Driver</span></a></li>
+        <li>
+          <a href="#" role="button" class="nav-link">
+            <span class="nav-link-inner--text">Company</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" role="button" class="nav-link">
+            <span class="nav-link-inner--text selected">Traveler</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" role="button" class="nav-link">
+            <span class="nav-link-inner--text">Partner</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" role="button" class="nav-link">
+            <span class="nav-link-inner--text">Driver</span>
+          </a>
+        </li>
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-5">
-        <li><a href="#" role="button" class="nav-link"><span class="nav-link-inner--text">En</span></a></li>
+        <li>
+          <a href="#" role="button" class="nav-link">
+            <span class="nav-link-inner--text">En</span>
+          </a>
+        </li>
         <li class="nav-item d-lg-block ml-lg-4">
           <base-button class="btn-1" type="success">Book a taxi</base-button>
         </li>
@@ -33,14 +53,12 @@
 </template>
 <script>
 import BaseNav from "@/components/BaseNav";
-import BaseDropdown from "@/components/BaseDropdown";
 import CloseButton from "@/components/CloseButton";
 
 export default {
   components: {
     BaseNav,
-    CloseButton,
-    BaseDropdown
+    CloseButton
   }
 };
 </script>

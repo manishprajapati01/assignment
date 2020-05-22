@@ -60,14 +60,22 @@
         </div>
       </div>
 
-      <div class="row justify-content-center align-items-center mt-3">
-        <div class="col-lg-5">
+      <div class="row justify-content-center align-items-center mt-3 form-background p-5">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6">
+              Logo
+            </div>
+            <div class="col-lg-6">
+              Rating
+            </div>
+          </div>
           Book a trusted, English-speaking driver to pick you up at the same price as a regular taxi
           <a
             href="#!"
           >Learn more</a>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-6">
           <form>
             <div class="input-group">
               <input

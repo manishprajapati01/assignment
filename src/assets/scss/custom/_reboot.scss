@@ -3,6 +3,14 @@
     width: device-width;
   }
 }
+@font-face {
+  font-family: "Museo Sans Rounded";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Museo Sans Rounded"),
+    url("../fonts/MuseoSansRounded.woff") format("woff");
+}
+
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;

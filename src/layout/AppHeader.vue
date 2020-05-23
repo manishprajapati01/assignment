@@ -45,7 +45,7 @@
           </a>
         </li>
         <li class="nav-item d-lg-block ml-lg-4">
-          <base-button class="btn-1" type="success">Book a taxi</base-button>
+          <button class="btn btn-success">Book a taxi</button>
         </li>
       </ul>
     </base-nav>

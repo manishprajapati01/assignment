@@ -8,7 +8,10 @@
           </span>
           <span class="text-muted h6 ml-1">Welcome</span>
           <h5 class="font-weight-bold mt-2">The best way to arrive in Athens</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
           <button class="btn btn-success">Learn more</button>
         </b-card-text>
       </b-card>

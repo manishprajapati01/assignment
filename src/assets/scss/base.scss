@@ -1,28 +1,8 @@
-@font-face {
-  font-family: "Museo Sans Rounded";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Museo Sans Rounded"), url("../fonts/MuseoSansRounded.woff") format("woff");
-}
-body {
-  font-size: 0.9rem;
-  font-family: "Museo Sans Rounded";
-}
-
-.nav-link {
-  .nav-link-inner--text {
-    padding-bottom: 5px;
-    &:hover,
-    &.selected {
-      border-bottom: 3px solid $green;
-    }
-  }
-}
 .form-background {
   background-image: url("../../../public/img/background/car_back_seat.jpg");
   background-size: cover;
 }
 
-.rating {
-  width: 125px;
+.overflow-hidden {
+  overflow: hidden !important;
 }

@@ -53,7 +53,6 @@
               <td>23min</td>
               <td>24/7</td>
               <td>
-                <!-- <base-button type="dark" size="sm">Book</base-button> -->
                 <button type="button" class="btn btn-dark btn-sm m-0">Book</button>
               </td>
             </tr>

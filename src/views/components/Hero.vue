@@ -1,7 +1,7 @@
 <template>
-  <section class="section-hero section-shaped my-0">
-    <div class="shape shape-style-1 garden" style="background-image: url('img/garden.jpg');"></div>
-    <div class="container shape-container d-flex align-items-center">
+  <section class="section-home section-shaped my-0">
+    <div class="home garden" style="background-image: url('img/garden.jpg');"></div>
+    <div class="container home-container d-flex align-items-center">
       <div class="col px-0">
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-8">

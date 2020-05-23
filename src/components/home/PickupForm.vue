@@ -9,11 +9,12 @@
           <img src="img/background/review.png" />
         </div>
       </div>
-      <h4
-        class="clr-white"
-        style="margin-top:30%"
-      >Book a trusted, English-speaking driver to pick you up at the same price as a regular taxi</h4>
-      <a href="#!">Learn more</a>
+      <h6
+        class="text-white"
+      >Book a trusted, English-speaking driver to pick you up at the same price as a regular taxi</h6>
+      <a href="#!" class="text-white">
+        <small>Learn more</small>
+      </a>
     </div>
     <div class="col-lg-6">
       <form>
@@ -27,7 +28,7 @@
         </div>
         <div class="form-row">
           <div class="mt-3 col-md-6">
-            <label for="inputAddress" class="clr-white">Pickup Date</label>
+            <label for="inputAddress" class="clr-white">Pickup date</label>
             <input type="date" class="form-control" />
           </div>
           <div class="mt-3 col-md-6">
@@ -39,7 +40,7 @@
             </select>
           </div>
           <div class="mt-3 col-md-6">
-            <label for="inputAddress" class="clr-white">Passenger</label>
+            <label for="inputAddress" class="clr-white">Passengers</label>
             <div class="input-group">
               <div class="input-group-prepend">
                 <span class="input-group-text">-</span>
@@ -51,7 +52,7 @@
             </div>
           </div>
           <div class="mt-3 col-md-6">
-            <label for="inputAddress" class="clr-white">Luggage Pieces</label>
+            <label for="inputAddress" class="clr-white">Luggage pieces</label>
             <div class="input-group">
               <div class="input-group-prepend">
                 <span class="input-group-text">-</span>
@@ -63,11 +64,7 @@
             </div>
           </div>
           <div class="mt-3 col-lg-12 input-group">
-            <button
-              type="button"
-              class="btn btn-1 btn-success"
-              style="width:100%; line-height: 30px;"
-            >Book a taxi</button>
+            <button type="button" class="btn btn-block btn-success">Continue booking</button>
           </div>
         </div>
       </form>

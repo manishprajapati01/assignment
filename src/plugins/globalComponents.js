@@ -1,11 +1,11 @@
-import BaseInput from "../components/BaseInput";
-import Icon from "../components/Icon";
-import Rating from "../components/Rating";
+import BaseInput from "../components/shared/BaseInput";
+import Rating from "../components/shared/Rating";
+import DatePickers from "../components/shared/DatePickers";
 
 export default {
   install(Vue) {
     Vue.component(BaseInput.name, BaseInput);
-    Vue.component(Icon.name, Icon);
     Vue.component(Rating.name, Rating);
+    Vue.component(DatePickers.name, DatePickers);
   }
 };

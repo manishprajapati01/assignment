@@ -17,6 +17,7 @@
 import flatPicker from "vue-flatpickr-component";
 import "flatpickr/dist/flatpickr.css";
 export default {
+  name: "date-pickers",
   components: {
     flatPicker
   },

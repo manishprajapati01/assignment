@@ -17,52 +17,61 @@
       </div>
     </div>
 
-    <div class="row justify-content-center align-items-center mr-1 ml-1 mt-3">
-      <div class="col-lg-4 border-top border-right border-left">
-        <div class="row mt-4">
-          <div class="col-sm-6 col-lg-6">
-            <div class="text-uppercase">Cost</div>
-            <h3>
-              <i class="fa fa-eur" aria-hidden="true"></i>1.20
-            </h3>
-          </div>
-          <div class="col-sm-6 col-lg-6">
-            <div class="text-uppercase">Trip duration</div>
-            <h3>30 Min.</h3>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-lg-12">There can be up to a 13 mintue wait for the metro</div>
-        </div>
-      </div>
-      <div class="col-lg-4 border-top border-right">
-        <div class="row mt-3">
-          <div class="col-sm-6 col-lg-6 text-uppercase">Convenience</div>
-          <div class="col-sm-6 col-lg-6">
-            <rating />
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-sm-6 col-lg-6 text-uppercase">Safety</div>
-          <div class="col-sm-6 col-lg-6">
-            <rating />
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-sm-6 col-lg-6 text-uppercase">Value for money</div>
-          <div class="col-sm-6 col-lg-6">
-            <rating />
-          </div>
-        </div>
-        <div class="row mt-4"></div>
-      </div>
-    </div>
-    <div class="row justify-content-center align-items-center mr-1 ml-1">
-      <div class="col-lg-8 border">
-        <p class="mt-2">
-          <i class="fa fa-info-circle" aria-hidden="true"></i>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis egestas pretium.
-        </p>
+    <div class="row justify-content-center align-items-center mt-3">
+      <div class="col-lg-8">
+        <b-card-group>
+          <b-card>
+            <b-card-text>
+              <div class="d-flex">
+                <div class="text-uppercase">Cost</div>
+                <div class="text-uppercase ml-5">Trip duration</div>
+              </div>
+              <div class="d-flex">
+                <div class="text-uppercase">
+                  <h4>
+                    <i class="fa fa-eur" aria-hidden="true"></i>1.20
+                  </h4>
+                </div>
+                <div class="text-uppercase ml-4">
+                  <h4 class="pl-2">30 Min.</h4>
+                </div>
+              </div>
+              <div class="mt-2">There can be up to a 13 mintue wait for the metro</div>
+            </b-card-text>
+          </b-card>
+
+          <b-card>
+            <b-card-text>
+              <div class="d-flex mb-2">
+                <div class="text-uppercase">Convenience</div>
+                <div class="ml-auto">
+                  <rating />
+                </div>
+              </div>
+              <div class="d-flex mb-2">
+                <div class="text-uppercase">Safety</div>
+                <div class="ml-auto">
+                  <rating />
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="text-uppercase">Value for money</div>
+                <div class="ml-auto">
+                  <rating />
+                </div>
+              </div>
+            </b-card-text>
+          </b-card>
+        </b-card-group>
+
+        <b-card-group>
+          <b-card>
+            <b-card-text>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cras adipiscing enim eu turpis egestas pretium.
+            </b-card-text>
+          </b-card>
+        </b-card-group>
       </div>
     </div>
 
@@ -78,7 +87,14 @@
 </template>
 
 <script>
+import { BCard, BCardText, BCardGroup } from "bootstrap-vue";
+
 export default {
-  name: "mrt-information"
+  name: "mrt-information",
+  components: {
+    BCard,
+    BCardText,
+    BCardGroup
+  }
 };
 </script>

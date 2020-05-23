@@ -1,4 +1,5 @@
 $icon-border-size: 15px;
+$icon-border-size-lg: 25px;
 $icon-border-size-sm: 10px;
 $icon-border-size-lg: 20px;
 
@@ -29,19 +30,24 @@ $icon-border-size-lg: 20px;
   line-height: $icon-size-sm;
   //  -moz-border-radius: $icon-border-size-sm;
   // border-radius: $icon-border-size-sm;
-  font-size: 0.7em;
+  font-size: 1em !important;
 }
 .round.round-lg {
-  height: $icon-size-lg;
-  width: $icon-size-lg;
-  line-height: $icon-size-lg;
-  -moz-border-radius: $icon-border-size;
-  border-radius: $icon-border-size;
-  font-size: 1.5em;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  -moz-border-radius: $icon-border-size-lg;
+  border-radius: $icon-border-size-lg;
+  font-size: 1.2em !important;
 }
 
 .round.white {
   background-color: #fff;
+  color: #000;
+}
+
+.round.light {
+  background-color: rgba(0, 0, 0, 0.03);
   color: #000;
 }
 

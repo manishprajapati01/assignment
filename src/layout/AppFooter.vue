@@ -6,7 +6,7 @@
           <div class="d-flex mb-3">
             <div class="round round-sm hollow white">
               <span>
-                <i class="fa fa-odnoklassniki"></i>
+                <i class="fa fa-handshake-o"></i>
               </span>
             </div>
             <div class="align-self-center font-weight-bold text-white ml-2">Welcome</div>

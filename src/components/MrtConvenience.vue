@@ -5,13 +5,7 @@
         <div>
           <h4>Convenience</h4>
         </div>
-        <div class="p-2">
-          <span class="fa fa-star checked ml-2"></span>
-          <span class="fa fa-star checked ml-2"></span>
-          <span class="fa fa-star checked ml-2"></span>
-          <span class="fa fa-star ml-2"></span>
-          <span class="fa fa-star ml-2"></span>
-        </div>
+        <rating />
       </div>
 
       <p

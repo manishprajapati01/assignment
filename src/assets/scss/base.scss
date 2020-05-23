@@ -2,8 +2,7 @@
   font-family: "Museo Sans Rounded";
   font-style: normal;
   font-weight: normal;
-  src: local("Museo Sans Rounded"),
-    url("../fonts/MuseoSansRounded.woff") format("woff");
+  src: local("Museo Sans Rounded"), url("../fonts/MuseoSansRounded.woff") format("woff");
 }
 body {
   font-size: 0.9rem;
@@ -22,4 +21,8 @@ body {
 .form-background {
   background-image: url("../../../public/img/background/car_back_seat.jpg");
   background-size: cover;
+}
+
+.rating {
+  width: 125px;
 }

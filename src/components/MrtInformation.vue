@@ -3,7 +3,9 @@
     <div class="row justify-content-center align-items-center mt-3">
       <div class="col-lg-8">
         <p>
-          <i class="fa fa-subway" aria-hidden="true"></i> How to get from Singapore Airport to city centre by metro (MRT)
+          <span class="round round-lg hollow light mr-2">
+            <i class="fa fa-subway" aria-hidden="true"></i>
+          </span> How to get from Singapore Airport to city centre by metro (MRT)
         </p>
         <p
           class="mt-3"
@@ -33,35 +35,23 @@
           <div class="col-lg-12">There can be up to a 13 mintue wait for the metro</div>
         </div>
       </div>
-      <div class="col-lg-3 border-top border-right">
+      <div class="col-lg-4 border-top border-right">
         <div class="row mt-3">
           <div class="col-sm-6 col-lg-6 text-uppercase">Convenience</div>
-          <div class="col-sm-6 col-lg-6 text-uppercase">
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star ml-1"></span>
-            <span class="fa fa-star ml-1"></span>
+          <div class="col-sm-6 col-lg-6">
+            <rating />
           </div>
         </div>
         <div class="row mt-3">
           <div class="col-sm-6 col-lg-6 text-uppercase">Safety</div>
-          <div class="col-sm-6 col-lg-6 text-uppercase">
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star ml-1"></span>
-            <span class="fa fa-star ml-1"></span>
+          <div class="col-sm-6 col-lg-6">
+            <rating />
           </div>
         </div>
         <div class="row mt-3">
           <div class="col-sm-6 col-lg-6 text-uppercase">Value for money</div>
-          <div class="col-sm-6 col-lg-6 text-uppercase">
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star checked ml-1"></span>
-            <span class="fa fa-star ml-1"></span>
-            <span class="fa fa-star ml-1"></span>
+          <div class="col-sm-6 col-lg-6">
+            <rating />
           </div>
         </div>
         <div class="row mt-4"></div>

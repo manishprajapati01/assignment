@@ -30,8 +30,9 @@
           <tbody>
             <tr>
               <td class="pl-0">
-                <i class="fa fa-taxi"></i>
-                Taxi
+                <div class="round round-sm hollow light mr-1">
+                  <i class="fa fa-taxi"></i>
+                </div>Taxi
               </td>
               <td>
                 <i class="fa fa-eur" aria-hidden="true"></i>15
@@ -42,7 +43,9 @@
             </tr>
             <tr>
               <td class="pl-0">
-                <i class="fa fa-odnoklassniki" aria-hidden="true"></i> Best Pickup
+                <div class="round round-sm hollow light mr-1">
+                  <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+                </div>Best Pickup
               </td>
               <td>
                 <i class="fa fa-eur" aria-hidden="true"></i>35
@@ -55,7 +58,9 @@
             </tr>
             <tr>
               <td class="pl-0">
-                <i class="fa fa-subway" aria-hidden="true"></i> Metro
+                <div class="round round-sm hollow light mr-1">
+                  <i class="fa fa-subway" aria-hidden="true"></i>
+                </div>Metro
               </td>
               <td>
                 <i class="fa fa-eur" aria-hidden="true"></i>2.40
@@ -66,7 +71,9 @@
             </tr>
             <tr>
               <td class="pl-0">
-                <i class="fa fa-bus" aria-hidden="true"></i> Bus
+                <div class="round round-sm hollow light mr-1">
+                  <i class="fa fa-bus" aria-hidden="true"></i>
+                </div>Bus
               </td>
               <td>
                 <i class="fa fa-eur" aria-hidden="true"></i>3

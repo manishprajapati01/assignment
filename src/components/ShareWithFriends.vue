@@ -1,6 +1,6 @@
 <template>
   <div class="row justify-content-center align-items-center mt-4 mb-4">
-    <div class="col-lg-5">
+    <div class="col-sm-4 text-center">
       <p
         class="mt-2 mb-2 text-muted font-weight-bold text-uppercase small"
       >Save the article for later or share it with friends</p>

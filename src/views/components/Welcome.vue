@@ -9,8 +9,9 @@
                 <b-card-body>
                   <b-card-text>
                     <h4 class="card-title mb-0">
-                      <i class="fa fa-handshake-o"></i>
-                      Welcome
+                      <div class="round round-sm hollow white text-success mr-1">
+                        <i class="fa fa-handshake-o"></i>
+                      </div>Welcome
                     </h4>
                     <small>
                       <p class="font-weight-bold mb-0">Travel safe with Welcome Pickups</p>-

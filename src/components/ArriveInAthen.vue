@@ -3,8 +3,11 @@
     <div class="col-lg-8">
       <b-card img-src="img/images.jpg" img-alt="Card image" img-left class="mb-3 bg-secondary">
         <b-card-text>
-          <h6>Welcome</h6>
-          <h4>The best way to arrive in Athens</h4>
+          <span class="round round-sm hollow light text-muted mr-1">
+            <i class="fa fa-handshake-o"></i>
+          </span>
+          <span class="text-muted h6 ml-1">Welcome</span>
+          <h5 class="font-weight-bold mt-2">The best way to arrive in Athens</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <button class="btn btn-success">Learn more</button>
         </b-card-text>

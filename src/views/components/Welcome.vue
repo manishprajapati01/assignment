@@ -1,5 +1,5 @@
 <template>
-  <section class="section section-components pb-0" id="section-components">
+  <section class="section section-components pb-0 pt-4" id="section-components">
     <div class="container">
       <div class="row justify-content-center align-items-center">
         <div class="col-lg-8">
@@ -8,7 +8,7 @@
               <div class="col-lg-7 text-white pr-0">
                 <b-card-body>
                   <b-card-text>
-                    <h4 class="card-title mb-0">
+                    <h4 class="card-title mb-3">
                       <div class="round round-sm hollow white text-success mr-1">
                         <i class="fa fa-handshake-o"></i>
                       </div>Welcome

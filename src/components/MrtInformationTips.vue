@@ -1,5 +1,5 @@
 <template>
-  <div class="row justify-content-center align-items-center">
+  <div class="row justify-content-center align-items-center mt-4">
     <div class="col-lg-8">
       <div class="mb-5">
         <div class="card">
@@ -8,7 +8,7 @@
               <div class="mr-auto p-2">
                 <p class="mb-0 font-weight-bold text-uppercase">Editor's Note</p>
               </div>
-              <div class="p-2">
+              <div class="p-2 text-muted">
                 <i class="fa fa-chevron-up" aria-hidden="true"></i>
               </div>
             </div>
@@ -27,7 +27,7 @@
               <div class="mr-auto p-2">
                 <p class="mb-0 font-weight-bold text-uppercase">Useful tips</p>
               </div>
-              <div class="p-2">
+              <div class="p-2 text-muted">
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
               </div>
             </div>

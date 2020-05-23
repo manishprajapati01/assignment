@@ -4,13 +4,13 @@
       <h4>Timetables</h4>
 
       <p class="mt-3 mb-5">
-        <span class="round round-sm hollow light mr-2">
+        <span class="round round-sm hollow light mr-2 text-muted">
           <i class="fa fa-list" aria-hidden="true"></i>
         </span>
         Terminal Transfers at Changi
       </p>
       <p>
-        <span class="round round-sm hollow light mr-2">
+        <span class="round round-sm hollow light mr-2 text-muted">
           <i class="fa fa-list" aria-hidden="true"></i>
         </span>
         Metro MRT Map Singapore

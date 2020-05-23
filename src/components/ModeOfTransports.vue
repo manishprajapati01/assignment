@@ -2,10 +2,10 @@
   <div>
     <div class="row justify-content-center align-items-center mt-3">
       <div class="col-lg-8">
-        <p class="font-weight-bold">Comparison of the options</p>
+        <p class="font-weight-bold mb-2">Comparison of the options</p>
       </div>
     </div>
-    <div class="row justify-content-center align-items-center mt-3">
+    <div class="row justify-content-center align-items-center mt-0">
       <div class="col-lg-8">
         <div class="bg-secondary font-weight-bold text-uppercase p-3 text-center" role="alert">
           price for
@@ -19,7 +19,7 @@
       <div class="col-lg-8">
         <table class="table table-responsive" style="width:100%">
           <thead>
-            <tr>
+            <tr class="text-muted">
               <th class="pl-0" scope="col" style="width: 30em;">OPTION</th>
               <th scope="col" style="width: 15em;">PRICE</th>
               <th scope="col" style="width: 15em;">DURATION</th>
@@ -53,7 +53,8 @@
               <td>23min</td>
               <td>24/7</td>
               <td>
-                <base-button type="dark" size="sm">Book</base-button>
+                <!-- <base-button type="dark" size="sm">Book</base-button> -->
+                <button type="button" class="btn btn-dark btn-sm m-0">Book</button>
               </td>
             </tr>
             <tr>
@@ -69,7 +70,7 @@
               <td>05:51-23:18</td>
               <td></td>
             </tr>
-            <tr>
+            <tr class="border-bottom">
               <td class="pl-0">
                 <div class="round round-sm hollow light mr-1">
                   <i class="fa fa-bus" aria-hidden="true"></i>
@@ -93,3 +94,18 @@ export default {
   name: "mode-of-transports"
 };
 </script>
+<style>
+.table th {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.table tr td {
+  vertical-align: middle;
+}
+.table thead th {
+  border-bottom: 0;
+}
+.table tr:last-child > td {
+  border-top: 0;
+}
+</style>

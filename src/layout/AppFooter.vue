@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-2 mx-auto">
           <div class="d-flex mb-3">
-            <div class="round round-sm hollow white">
+            <div class="round round-sm round-icon white">
               <span>
                 <i class="fa fa-handshake-o"></i>
               </span>
@@ -20,7 +20,7 @@
             <li class="mt-3">
               <button type="button" class="btn">
                 <span class="round mr-1">
-                  <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                  <i class="fa fa-question-circle-o text-white" aria-hidden="true"></i>
                 </span>Help
               </button>
             </li>
@@ -86,10 +86,7 @@
               <a href="#!">PayPal</a>
             </li>
             <li>
-              <a href="#!">
-                <i class="fa fa-cc-paypal" aria-hidden="true"></i>
-                Checkout.com
-              </a>
+              <a href="#!">Checkout.com</a>
             </li>
           </ul>
         </div>
@@ -98,35 +95,35 @@
 
     <ul class="list-unstyled list-inline text-center mt-5">
       <li class="list-inline-item">
-        <div class="round round-sm hollow white">
+        <div class="round round-sm round-icon white">
           <a>
             <i class="fa fa-facebook-official"></i>
           </a>
         </div>
       </li>
       <li class="list-inline-item">
-        <div class="round round-sm hollow white">
+        <div class="round round-sm round-icon white">
           <a>
             <i class="fa fa-twitter"></i>
           </a>
         </div>
       </li>
       <li class="list-inline-item">
-        <div class="round round-sm hollow white">
+        <div class="round round-sm round-icon white">
           <a>
             <i class="fa fa-instagram"></i>
           </a>
         </div>
       </li>
       <li class="list-inline-item">
-        <div class="round round-sm hollow white">
+        <div class="round round-sm round-icon white">
           <a>
             <i class="fa fa-yelp"></i>
           </a>
         </div>
       </li>
       <li class="list-inline-item">
-        <div class="round round-sm hollow white">
+        <div class="round round-sm round-icon white">
           <a>
             <i class="fa fa-linkedin"></i>
           </a>

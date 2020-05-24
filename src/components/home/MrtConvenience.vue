@@ -1,6 +1,6 @@
 <template>
   <div class="row justify-content-center align-items-center mt-4">
-    <div class="col-lg-8">
+    <div class="col-lg-7">
       <div class="d-flex flex-row mb-3">
         <div>
           <h4>Convenience</h4>

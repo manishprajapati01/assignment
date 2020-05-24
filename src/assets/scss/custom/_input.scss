@@ -1,0 +1,20 @@
+input[type="date"] {
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  background: none;
+  z-index: 1;
+}
+
+input[type="date"]:before {
+  color: transparent;
+  background: none;
+  display: block;
+  font-family: "FontAwesome";
+  content: "\f073";
+  position: absolute;
+  right: 6px;
+  color: #999;
+}

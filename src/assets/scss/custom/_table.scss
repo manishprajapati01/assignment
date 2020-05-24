@@ -1,0 +1,14 @@
+.table {
+  th {
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-bottom: 0;
+  }
+  tr td {
+    vertical-align: middle;
+  }
+
+  tr:last-child > td {
+    border-top: 0;
+  }
+}

@@ -10,10 +10,17 @@
     height: 100vh;
     max-height: 500px;
   }
+
+  .garden {
+    background: no-repeat center center;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    filter: brightness(50%);
+  }
 }
 
 .section-shaped {
-  margin: 180px 0;
   position: relative;
 
   .home {

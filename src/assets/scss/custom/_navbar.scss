@@ -12,6 +12,7 @@
     .nav-link-inner--text {
       margin-left: 0.25rem;
       padding-bottom: 5px;
+      color: $navbar-nav-link-color;
       &:hover,
       &.selected {
         border-bottom: 3px solid $green !important;
@@ -205,9 +206,11 @@
     padding: 1.5rem;
     border-radius: $border-radius;
     background: #fff;
-    box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1),
-      0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
     animation: show-navbar-collapse 0.2s ease forwards;
+    .nav-link-inner--text {
+      color: #000;
+    }
   }
 
   .navbar-collapse.collapsing-out {

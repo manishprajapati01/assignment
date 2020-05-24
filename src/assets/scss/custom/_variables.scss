@@ -1,7 +1,5 @@
 // Color system
 $white: #fff !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #8898aa !default;
@@ -34,11 +32,9 @@ $darker: darken($gray-900, 15%) !default;
 
 // Body
 $body-bg: $white !default;
-$body-color: $gray-700 !default;
+$body-color: $gray-900 !default;
 
 // Components
-$border-width: 0.0625rem !default;
-$border-color: $gray-200 !default;
 $border-radius: 0.25rem !default;
 
 $transition-base: all 0.15s ease !default;
@@ -48,20 +44,20 @@ $transition-collapse: height 0.35s ease !default;
 // Fonts
 $font-family-base: "Museo Sans Rounded" !default;
 $font-family-alt: "Museo Sans Rounded" !default;
-$font-size-base: 1rem !default;
+$font-size-base: 0.9rem !default;
 
 $font-weight-normal: 400 !default;
 
 $font-weight-base: $font-weight-normal !default;
 
-$paragraph-font-size: 0.95rem !default;
+$paragraph-font-size: $font-size-base !default;
 $paragraph-line-height: 1.7 !default;
 
 // Icons
 $icon-size: 3rem !default;
-$icon-size-xl: 5rem !default;
-$icon-size-lg: 4rem !default;
 $icon-size-sm: 2rem !default;
+$icon-border-size: 0.9375rem !default;
+$icon-border-size-lg: 1.25rem !default;
 
 // Navbar
 $navbar-transition: all 0.15s linear !default;
@@ -73,6 +69,7 @@ $navbar-nav-link-font-weight: 400 !default;
 $navbar-nav-link-text-transform: normal !default;
 $navbar-nav-link-letter-spacing: 0 !default;
 $navbar-nav-link-border-radius: $border-radius !default;
+$navbar-nav-link-color: $white !default;
 
 // Close
 $close-font-size: $font-size-base * 1.5 !default;
@@ -93,3 +90,6 @@ $footer-heading-font-size: ($font-size-base * 0.875) !default;
 
 // Rating
 $rating-icon-hover-color: $green !default;
+
+// Button
+$btn-success-bg-color: $green !default;

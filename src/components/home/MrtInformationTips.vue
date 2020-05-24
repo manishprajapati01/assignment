@@ -1,9 +1,9 @@
 <template>
   <div class="row justify-content-center align-items-center mt-4">
-    <div class="col-lg-8">
+    <div class="col-lg-7">
       <div class="mb-5">
-        <div class="card">
-          <div class="card-header pt-0 pb-0 pl-1">
+        <div class="card accordion">
+          <div class="card-header pt-0 pb-0 pl-1 border-0 bg-transparent">
             <div class="d-flex">
               <div class="mr-auto p-2">
                 <p class="mb-0 font-weight-bold text-uppercase">Editor's Note</p>
@@ -21,8 +21,8 @@
           </div>
         </div>
 
-        <div class="card mt-3">
-          <div class="card-header pt-0 pb-0 pl-1">
+        <div class="card mt-3 accordion">
+          <div class="card-header pt-0 pb-0 pl-1 border-0 bg-transparent">
             <div class="d-flex">
               <div class="mr-auto p-2">
                 <p class="mb-0 font-weight-bold text-uppercase">Useful tips</p>

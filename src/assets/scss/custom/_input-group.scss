@@ -1,0 +1,12 @@
+.pickup-form {
+  .input-group {
+    .rounded-right-0 {
+      border-top-right-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+    }
+  }
+}
+.form-background {
+  background-image: url("../../../public/img/background/car_back_seat.jpg");
+  background-size: cover;
+}

@@ -1,13 +1,8 @@
 .footer {
   background: $footer-bg;
-  padding: 3rem 0;
-
   .heading {
     color: $footer-heading-color;
-    letter-spacing: 0;
     font-size: $footer-heading-font-size;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
   }
 
   .list-unstyled li a {
@@ -15,7 +10,6 @@
     padding: 0.125rem 0;
     color: $footer-link-color;
     font-size: $footer-link-font-size;
-
     &:hover {
       color: $footer-link-hover-color;
     }
@@ -28,26 +22,13 @@
   .btn {
     height: 35px;
     width: 120px;
-    background-color: #212529;
+    background-color: $footer-bg;
     border: solid 1px $white;
     color: $white;
-    font-weight: normal;
-    padding: 0rem 0rem;
     border-radius: 0;
   }
   .dropdown-toggle::after {
     left: 15px;
     position: inherit;
-  }
-
-  .round {
-    .fa-question-circle-o {
-      color: #fff !important;
-      background-color: transparent !important;
-    }
-  }
-  .fa {
-    background-color: white;
-    color: black;
   }
 }

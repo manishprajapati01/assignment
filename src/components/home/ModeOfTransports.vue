@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="row justify-content-center align-items-center mt-3">
-      <div class="col-lg-8">
-        <p class="font-weight-bold mb-2">Comparison of the options</p>
+      <div class="col-lg-7">
+        <h5 class="font-weight-bold mb-2">Comparison of the options</h5>
       </div>
     </div>
     <div class="row justify-content-center align-items-center mt-0">
-      <div class="col-lg-8">
+      <div class="col-lg-7">
         <div class="bg-secondary font-weight-bold text-uppercase p-3 text-center" role="alert">
           price for
           <i class="fa fa-minus ml-3 mr-3" aria-hidden="true"></i>
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="row justify-content-center align-items-center">
-      <div class="col-lg-8">
+      <div class="col-lg-7">
         <table class="table table-responsive" style="width:100%">
           <thead>
             <tr class="text-muted">
@@ -30,7 +30,7 @@
           <tbody>
             <tr>
               <td class="pl-0">
-                <div class="round round-sm hollow light mr-1">
+                <div class="round round-sm round-icon light mr-1">
                   <i class="fa fa-taxi"></i>
                 </div>Taxi
               </td>
@@ -43,7 +43,7 @@
             </tr>
             <tr>
               <td class="pl-0">
-                <div class="round round-sm hollow light mr-1">
+                <div class="round round-sm round-icon light mr-1">
                   <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
                 </div>Best Pickup
               </td>
@@ -58,7 +58,7 @@
             </tr>
             <tr>
               <td class="pl-0">
-                <div class="round round-sm hollow light mr-1">
+                <div class="round round-sm round-icon light mr-1">
                   <i class="fa fa-subway" aria-hidden="true"></i>
                 </div>Metro
               </td>
@@ -71,7 +71,7 @@
             </tr>
             <tr class="border-bottom">
               <td class="pl-0">
-                <div class="round round-sm hollow light mr-1">
+                <div class="round round-sm round-icon light mr-1">
                   <i class="fa fa-bus" aria-hidden="true"></i>
                 </div>Bus
               </td>
@@ -93,18 +93,3 @@ export default {
   name: "mode-of-transports"
 };
 </script>
-<style>
-.table th {
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-.table tr td {
-  vertical-align: middle;
-}
-.table thead th {
-  border-bottom: 0;
-}
-.table tr:last-child > td {
-  border-top: 0;
-}
-</style>

@@ -24,8 +24,7 @@ export default {
   data() {
     return {
       dates: {
-        simple: "17-07-2018",
-        range: "2018-07-17 to 2018-07-19"
+        value: "24-07-2020"
       }
     };
   }
